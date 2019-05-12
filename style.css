@@ -1,0 +1,83 @@
+/* general style */
+*{
+ box-sizing: border-box; 
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+body{
+  background-color: #909090;
+}
+
+hr {
+  width: 37px;
+  height: 10px;
+  color: #000;
+}
+
+/* header */
+.container {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+.shoppingCartimage{
+  width: 4.25em;
+  height: 4.25em;
+}
+.into {
+  margin-top: 2.18em;
+}
+
+.into h1 {
+  margin-top: 0.12em;
+}
+
+.resetcontainer {
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.18em;
+  left: 41.4em;
+  margin-bottom: 2em;
+  text-align: left;
+  width: 12.5em;
+  margin: 0 auto;
+}
+
+/* input */
+.list-area-insertion input[type='text']{
+  width: 16em;
+  height: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+
+button[type ='submit']{
+  background-color: #36d9bc;
+  width: 6em;
+  height: 2.3em;
+  border-left-width: 0;
+  border: 1px solid black
+}
+
+ul, li {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 5px;
+}
+
+li {
+  border: 1px solide #2b8070;
+  background-color: white;
+  border-radius: 5px;
+  height: 1.5em;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 14em;
+
+}
+
